@@ -1,0 +1,381 @@
+-- Made by GamerEmilianoFF
+
+-- 
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+
+local mainframe = Instance.new("Frame")
+
+local fly = Instance.new("TextButton")
+
+local trash = Instance.new("TextButton")
+
+local speed = Instance.new("TextButton")
+
+local combodhm = Instance.new("TextButton")
+
+local server = Instance.new("TextButton")
+
+local gui = Instance.new("TextButton")
+
+local N = Instance.new("TextButton")
+
+local m = Instance.new("TextButton")
+
+local l = Instance.new("TextButton")
+
+local close = Instance.new("TextButton")
+
+local openmain = Instance.new("Frame")
+
+local open = Instance.new("TextButton")
+
+--Properties:
+
+-- Made by GamerEmilianoFF
+
+-- 
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+
+local mainframe = Instance.new("Frame")
+
+local fly = Instance.new("TextButton")
+
+local trash = Instance.new("TextButton")
+
+local speed = Instance.new("TextButton")
+
+local combodhm = Instance.new("TextButton")
+
+local N = Instance.new("TextButton")
+
+local m = Instance.new("TextButton")
+
+local l = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+mainframe.Name = "mainframe"
+
+mainframe.Parent = ScreenGui
+
+mainframe.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+
+mainframe.BorderColor3 = Color3.fromRGB(25, 25, 25)
+
+mainframe.Position = UDim2.new(0.010000000, 0, 0.000090000000, 0)
+
+mainframe.Size = UDim2.new(0, 745, 0, 356)
+
+ 
+
+fly.Name = "combodhm"
+
+fly.Parent = mainframe
+
+fly.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+fly.Position = UDim2.new(0.300000000, 0, 0.300000000, 0)
+
+fly.Size = UDim2.new(0, 250, 0, 50)
+
+fly.Font = Enum.Font.SourceSans
+
+fly.Text = "fly v2"
+
+fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+fly.TextSize = 20.000
+
+fly.MouseButton1Down:connect(function()
+
+    
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerEmilianoFF/FLY-V2/main/Fly%20no%20lag", true))();
+
+end)
+
+combodhm.Name = "combodhm"
+
+combodhm.Parent = mainframe
+
+combodhm.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+combodhm.Position = UDim2.new(0.001000000, 0, 0.300000000, 0)
+
+combodhm.Size = UDim2.new(0, 250, 0, 50)
+
+combodhm.Font = Enum.Font.SourceSans
+
+combodhm.Text = "combo hood modded"
+
+combodhm.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+combodhm.TextSize = 20.000
+
+combodhm.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerEmilianoFF/combodhm/main/New",true))()
+
+end)
+
+speed.Name = "speed"
+
+speed.Parent = mainframe
+
+speed.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+speed.Position = UDim2.new(0.001000000, 0, 0.550000000, 0)
+
+speed.Size = UDim2.new(0, 250, 0, 50)
+
+speed.Font = Enum.Font.SourceSans
+
+speed.Text = "speed bypass"
+
+speed.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+speed.TextSize = 20.000
+
+speed.MouseButton1Down:connect(function()
+
+    
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerEmilianoFF/madebyemiliano/main/Speed%20bypass",true))()
+
+end)
+
+server.Name = "server"
+
+server.Parent = mainframe
+
+server.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+server.Position = UDim2.new(0.300000000, 0, 0.550000000, 0)
+
+server.Size = UDim2.new(0, 250, 0, 50)
+
+server.Font = Enum.Font.SourceSans
+
+server.Text = "server finder"
+
+server.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+server.TextSize = 20.000
+
+server.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))();
+
+end)
+
+gui.Name = "gui"
+
+gui.Parent = mainframe
+
+gui.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+gui.Position = UDim2.new(0.300000000, 0, 0.800000000, 0)
+
+gui.Size = UDim2.new(0, 250, 0, 50)
+
+gui.Font = Enum.Font.SourceSans
+
+gui.Text = "Oblivion"
+
+gui.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+gui.TextSize = 20.000
+
+gui.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/loader.lua"))()
+
+end)
+
+trash.Name = "trash"
+
+trash.Parent = mainframe
+
+trash.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+trash.Position = UDim2.new(0.001000000, 0, 0.800000000, 0)
+
+trash.Size = UDim2.new(0, 250, 0, 50)
+
+trash.Font = Enum.Font.SourceSans
+
+trash.Text = "trash talk"
+
+trash.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+trash.TextSize = 20.000
+
+trash.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerEmilianoFF/script/main/Trash%20gui",true))()
+
+end)
+
+N.Name = "N"
+
+N.Parent = mainframe
+
+N.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+N.Position = UDim2.new(0.001000000, 0, 0.001000000, 0)
+
+N.Size = UDim2.new(0, 250, 0, 50)
+
+N.Font = Enum.Font.SourceSans
+
+N.Text = "scripts dhm"
+
+N.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+N.TextSize = 20.000
+
+N.MouseButton1Down:connect(function()
+
+end)
+
+m.Name = "m"
+
+m.Parent = mainframe
+
+m.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+m.Position = UDim2.new(0.300000000, 0, 0.001000000, 0)
+
+m.Size = UDim2.new(0, 250, 0, 50)
+
+m.Font = Enum.Font.SourceSans
+
+m.Text = "scripts any games"
+
+m.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+m.TextSize = 20.000
+
+m.MouseButton1Down:connect(function()
+
+end)
+
+l.Name = "l"
+
+l.Parent = mainframe
+
+l.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+l.Position = UDim2.new(0.6000000000, 0, 0.001000000, 0)
+
+l.Size = UDim2.new(0, 300, 0, 50)
+
+l.Font = Enum.Font.SourceSans
+
+l.Text = "credits"
+
+l.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+l.TextSize = 20.000
+
+l.MouseButton1Down:connect(function()
+
+end)
+
+close.Name = "close"
+
+close.Parent = mainframe
+
+close.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+close.Position = UDim2.new(0.99999000000, 0,0.003000000, 0)
+
+close.Size = UDim2.new(0,70, 0,356)
+
+close.Font = Enum.Font.GothamBlack
+
+close.Text = "close"
+
+close.TextColor3 = Color3.new(0, 0, 0)
+
+close.TextScaled = true
+
+close.TextSize = 14
+
+close.TextWrapped = true
+
+close.MouseButton1Down:connect(function()
+
+mainframe.Visible = false
+
+openmain.Visible = true
+
+end)
+
+ 
+
+openmain.Name = "openmain"
+
+openmain.Parent = ScreenGui
+
+openmain.BackgroundColor3 = Color3.new(25, 25, 25)
+
+openmain.Position = UDim2.new(.10, 0, .005, 0)
+
+openmain.Size = UDim2.new(0, 80, 0, 30)
+
+openmain.Active = true
+
+openmain.Draggable = true
+
+ 
+
+open.Name = "open"
+
+open.Parent = openmain
+
+open.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+
+open.Size = UDim2.new(0, 80, 0, 30)
+
+open.Font = Enum.Font.GothamBold
+
+open.Text = "OPEN"
+
+open.TextColor3 = Color3.new(0, 0, 0)
+
+open.TextSize = 18
+
+open.TextWrapped = true
+
+open.MouseButton1Down:connect(function()
+
+openmain.Visible = false
+
+mainframe.Visible = true
+
+end)
+
+local function JETILC_fake_script() -- mainframe.LocalScript 
+
+	local script = Instance.new('LocalScript', mainframe)
+
+	script.parent.Selectable = true
+
+	script.Parent.Active = true
+
+	script.parent.Draggable = true
+
+	
+
+end
+
+coroutine.wrap(JETILC_fake_script)()
