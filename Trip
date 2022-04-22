@@ -2,6 +2,12 @@
 
 print ("made by GamerEmilianoFF https://discord.gg/2FajhJ7h")
 
+ 
+
+
+
+
+
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -26,37 +32,13 @@ local m = Instance.new("TextButton")
 
 local l = Instance.new("TextButton")
 
+local X = Instance.new("TextButton")
+
 local close = Instance.new("TextButton")
 
 local openmain = Instance.new("Frame")
 
 local open = Instance.new("TextButton")
-
---Properties:
-
--- Made by GamerEmilianoFF
-
--- 
-
--- Instances:
-
-local ScreenGui = Instance.new("ScreenGui")
-
-local mainframe = Instance.new("Frame")
-
-local fly = Instance.new("TextButton")
-
-local trash = Instance.new("TextButton")
-
-local speed = Instance.new("TextButton")
-
-local combodhm = Instance.new("TextButton")
-
-local N = Instance.new("TextButton")
-
-local m = Instance.new("TextButton")
-
-local l = Instance.new("TextButton")
 
 --Properties:
 
@@ -70,7 +52,7 @@ mainframe.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 
 mainframe.BorderColor3 = Color3.fromRGB(25, 25, 25)
 
-mainframe.Position = UDim2.new(0.010000000, 0, 0.000090000000, 0)
+mainframe.Position = UDim2.new(0.030000000, 0, 0.000090000000, 0)
 
 mainframe.Size = UDim2.new(0, 745, 0, 356)
 
@@ -328,13 +310,43 @@ openmain.Parent = ScreenGui
 
 openmain.BackgroundColor3 = Color3.new(25, 25, 25)
 
-openmain.Position = UDim2.new(.10, 0, .005, 0)
+openmain.Position = UDim2.new(.25, 0, .005, 0)
 
 openmain.Size = UDim2.new(0, 80, 0, 30)
 
 openmain.Active = true
 
 openmain.Draggable = true
+
+X.Name = "X"
+
+X.Parent = mainframe
+
+X.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+X.Position = UDim2.new(0.99999000000, 0,0.001000000, 0)
+
+X.Size = UDim2.new(0,70, 0,50)
+
+X.Font = Enum.Font.GothamBlack
+
+X.Text = "X"
+
+X.TextColor3 = Color3.new(0, 0, 0)
+
+X.TextScaled = true
+
+X.TextSize = 14
+
+X.TextWrapped = true
+
+X.MouseButton1Down:connect(function()
+
+mainframe.Visible = false
+
+openmain.Visible = false
+
+end)
 
  
 
@@ -379,3 +391,5 @@ local function JETILC_fake_script() -- mainframe.LocalScript
 end
 
 coroutine.wrap(JETILC_fake_script)()
+ 
+
